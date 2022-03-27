@@ -19,7 +19,7 @@ function addNewPassword() {
        let randomSelector = Math.floor(Math.random() * randomIndex.length);
        randomPassword.push(randomIndex[randomSelector]);
    }
-   console.log(randomPassword.join(''));
+   //console.log(randomPassword.join(''));
    return randomPassword.join('');
     
 }
